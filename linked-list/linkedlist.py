@@ -16,6 +16,7 @@ class LinkedList:
             last_node = self.head
             while last_node.next is not None:
                 last_node = last_node.next
+
             last_node.next = new_node
 
     def insert_head(self,new_head):
@@ -99,21 +100,21 @@ class LinkedList:
             current_node = current_node.next
 
 
-first = Node("Matthews")
-second = Node("Zoe")
-list1 = LinkedList()
-list1.insert_end(first)
-list1.insert_end(second)
-third = Node("Alfred")
-list1.insert_head(third)
-list1.print_list()
-print("Lista con insertar ne posicion")
-fourth = Node("Bruce wayne")
-list1.insert_at(2,fourth)
-list1.print_list()
-print("Largo de la lista: " + str(list1.get_length()))
-# list1.delete_node()
-list1.delete_at(0)
-list1.print_list()
+# first = Node("Matthews")
+# second = Node("Zoe")
+# list1 = LinkedList()
+# list1.insert_end(first)
+# list1.insert_end(second)
+# third = Node("Alfred")
+# list1.insert_head(third)
+# list1.print_list()
+# print("Lista con insertar ne posicion")
+# fourth = Node("Bruce wayne")
+# list1.insert_at(2,fourth)
+# list1.print_list()
+# print("Largo de la lista: " + str(list1.get_length()))
+# # list1.delete_node()
+# list1.delete_at(0)
+# list1.print_list()
 
 
